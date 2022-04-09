@@ -1,0 +1,56 @@
+06:01:20 AM shivani: Hello, my name is shivani.  I'm here to help you today.
+06:01:21 AM Shubham Choudhary: Hi Shivani!
+06:01:50 AM Shubham Choudhary: Actually I need to reactivate my account 
+06:02:27 AM shivani: Sure Shubham, let me check this for you.
+06:03:11 AM Shubham Choudhary: thanks! take you time
+06:03:26 AM Shubham Choudhary: your*
+06:03:46 AM shivani: Thank you Shubham. I'm researching this for you.
+06:06:32 AM shivani: Thank you for waiting Shubham. i'm sorry to hear about your account suspension. Upon checking, I see that your account was suspended for Non- payment.
+06:07:47 AM shivani: Rest assured, as soon as the bills are paid, I'll be more than happy to reinstate the account.
+06:07:57 AM Shubham Choudhary: Yes! but this is my student learning account can you please reactivate it 
+06:09:01 AM shivani: Alright, I understand Shubham. Let me see if I can get a one time exception for you.
+06:09:15 AM Shubham Choudhary: Sure!
+06:09:39 AM Shubham Choudhary: Also if there is any enhancement forum is there please let me know 
+06:10:28 AM shivani: I'm sorry Shubham, may I know which enhancement forum you're referring too?
+06:12:32 AM Shubham Choudhary: I just want to submit the request for student and learning account so if there is any resource who is forget the  service active so that amazon can off those service automatically by setting student learning mode, actually in our organization we have that service 
+06:13:00 AM Shubham Choudhary: So it will not impact the the service and account deactivation
+06:13:40 AM shivani: I understand. However, we do not have any such forums. I'll guide you through the process. Don't worry, I'll help you out.
+06:13:55 AM Shubham Choudhary: Thanks! 
+06:14:41 AM shivani: I'll be reinstating the account as a one time exception, post which I'll be guiding you upon termination of all active resources on the account.
+06:15:25 AM Shubham Choudhary: that will be absolutely fine for me, Thanks for your support!
+06:16:06 AM shivani: You're most welcome. I have successfully reinstated the account. Let me now check for active resources on the account.
+06:17:01 AM Shubham Choudhary: Okay
+06:17:33 AM shivani: Please allow me a couple of minutes to check this for you.
+06:17:56 AM Shubham Choudhary: Sure, take your time!
+06:21:54 AM shivani: I have checked and can see that you were initially charged for EC2, ELB and VPC as the resources were launched outside the Free tier specifications.
+06:22:25 AM shivani: I can see that you have terminated EC2 and ELB on the account.
+06:22:35 AM shivani: However VPC is still shown active.
+06:24:05 AM shivani: I can help you terminate VPC as well.
+06:24:47 AM Shubham Choudhary: sure please terminate all the active services 
+06:25:03 AM Shubham Choudhary: Note: this is our team testing account 
+06:25:31 AM shivani: Shubham due to security policies of AWS, I'll not be able to terminate them. I can help you with direct links to terminate
+06:25:39 AM Shubham Choudhary: sure
+06:25:43 AM Shubham Choudhary: no problem
+06:26:29 AM shivani: Thank you. Can you click on https://console.aws.amazon.com/vpc/home?region=us-east-1#vpcs:  and check for active resources?
+06:28:43 AM shivani: I don't mean to rush you, but we've been idle for two minutes. I want to make sure our chat is still connected. If you aren't able to respond in two minutes, this chat will close.
+06:29:09 AM Shubham Choudhary: Apologies! Yes I just reviewing the KCS
+06:29:29 AM shivani: Okay, no issues.
+06:30:27 AM Shubham Choudhary: actually I did not found which resource is active because some of team member might be accidentally activated the service
+06:30:40 AM Shubham Choudhary: can you please point out me in right direction?
+06:30:52 AM shivani: Sure.
+ 
+06:31:54 AM Shubham Choudhary: which is service is active for which region?
+06:32:02 AM shivani: N. virginia
+06:33:34 AM Shubham Choudhary: Okay! i just did detection of default vpc
+06:33:51 AM Shubham Choudhary: can you please check if those service is still active'
+06:34:57 AM shivani: Sure Shubham. Also, would you mind if I call you to discuss about the same?
+06:35:04 AM Shubham Choudhary: sure
+06:35:17 AM shivani: Thank you.
+06:35:27 AM Shubham Choudhary: my best number would be 7020296595
+06:41:31 AM shivani: Thank you for contacting AWS support. Have a wonderful day ahead! 
+Please click on the "End Chat" to close this chat window from your end. 
+
+06:42:40 AM Shubham Choudhary: Thank you Shivani for your valuable support it there anything else which May need to submit the support experience survey which I can submit
+06:43:58 AM shivani: That means a lot Shubham. You should receive the survey in the email. Have a great day ahead.
+06:44:09 AM Shubham Choudhary: You too! bye
+06:44:17 AM shivani: Take care, bye

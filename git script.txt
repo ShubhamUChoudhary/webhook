@@ -1,0 +1,161 @@
+$ winget install --id Git.Git -e --source winget
+$ git init
+$ touch shubham
+$ touch helloworld.txt
+$ git add helloworld.txt
+$ git status
+$ git add .
+$ git config --global user.name
+$ git config --global user.email
+$ git commit -m "my first commit"
+$ git status
+$ git log --oneline
+$ git pull https://github.com/ShubhamUChoudhary/devops-b16.git
+$ git push https://github.com/ShubhamUChoudhary/devops-b16.git master --set-upstream
+$ git remote add origin https://github.com/ShubhamUChoudhary/devops-b16.git
+$ git remote -v
+$ git pull origin master
+----------------------------------
+
+$ cd shubham/
+$ vi hello.txt
+$ git add . hello.txt
+$ ls
+$ git status
+$ git commit -m "This is my first commit in nagpur region" hello.txt
+$ git config --list
+$ git log
+$ git remote add origin https://github.com/ShubhamUChoudhary/Gitrepo.git
+$ git branch -M main
+$ git push -u origin main
+$ git pull origin
+$ ls
+$ git push origin main
+$ ls
+-----------------------------------
+
+$ git clone https://github.com/ShubhamUChoudhary/Gitintro.git
+$ cd Gitintro/
+Create new file in defailt folder
+$ ls
+$ git add .
+$ git status
+$ git commit -m "My second commit"
+$ git status
+$ git remote -v
+$ git push origin main --set-upstream
+$ git log --oneline
+$ vi New\ text.txt
+$ git pull origin main
+$ git status
+$ git add .
+$ git commit -m "hello world added"
+$ git push origin main
+$ touch xyz.txt
+$ vi xyz.txt
+$ vi New\ text.txt
+$ git add xyz.txt
+$ git commit -m "xyz added"
+$ git add .
+$ git commit -m "new file updated"
+$ git push origin main
+$ git log --oneline
+$ cat new-file.txt
+$ cat New\ text.txt
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (main)
+$ git branch
+* main
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (main)
+$ git branch dev
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (main)
+$ git branch
+  dev
+* main
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (main)
+$ git checkout dev
+Switched to branch 'dev'
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ git branch
+* dev
+  main
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ git checkout -b feature
+Switched to a new branch 'feature'
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (feature)
+$ git branch
+  dev
+* feature
+  main
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (feature)
+$ git add .
+warning: LF will be replaced by CRLF in New text.txt.
+The file will have its original line endings in your working directory
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (feature)
+$ git commit -m "feature added"
+[feature fdaecf9] feature added
+ 1 file changed, 1 insertion(+)
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (feature)
+$ cat New\ text.txt
+Hello world
+this is shubham
+this is feature barcnh
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (feature)
+$ git checkout dev
+Switched to branch 'dev'
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ cat New\ text.txt
+Hello world
+this is shubham
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ git checkout feature
+Switched to branch 'feature'
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (feature)
+$ cat New\ text.txt
+Hello world
+this is shubham
+this is feature barcnh
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (feature)
+$ git checkout dev
+Switched to branch 'dev'
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ git merge feature
+Updating 2b66c1f..fdaecf9
+Fast-forward
+ New text.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ cat New\ text.txt
+Hello world
+this is shubham
+this is feature barcnh
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ git branch
+* dev
+  feature
+  main
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$ ^C
+
+
+User@LAPTOP-RKSJHVDP MINGW64 ~/Desktop/Gitintro (dev)
+$
+
+
+---------------------------
+

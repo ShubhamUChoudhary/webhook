@@ -1,0 +1,98 @@
+if (conn != null) {
+        try {
+            conn.close();
+        } catch (SQLException e) { /* Ignored */}
+    }
+
+ @RequestMapping(value="/editemp/{id}")    
+	    public String edit(@PathVariable int edu_id, Model m){    
+		 Education education=resumedao.findEducationById(edu_id);    
+	        m.addAttribute("command",education);  
+	        return "showdata";    
+	    }    
+	    /* It updates model object. */    
+	    @RequestMapping(value="/updated",method = RequestMethod.POST)    
+	    public String updateData(@ModelAttribute Education education){    
+	    	resumedao.update(education);    
+	        return "redirect:/showdata";    
+	    }    
+
+
+
+
+
+read data 
+/*
+	 * @RequestMapping(value = "/showdata") public ModelAndView
+	 * readPersonalData(ModelAndView model) throws IOException {
+	 * 
+	 * List<Personal> personalList = resumedao.readPersonalData();
+	 * model.addObject("personalList", personalList); model.setViewName("showdata");
+	 * 
+	 * return model; }
+	 */
+	/*
+	 * @RequestMapping(value = "/showdata") public ModelAndView
+	 * readEducationData(ModelAndView model) throws IOException {
+	 * 
+	 * List<Education> educationList = resumedao.readEducationData();
+	 * model.addObject("educationList", educationList);
+	 * model.setViewName("showdata");
+	 * 
+	 * return model; }
+	 * 
+	 * @RequestMapping(value = "/showdata", method = RequestMethod.GET) public
+	 * ModelAndView readEducationData2(ModelAndView model) throws IOException {
+	 * List<Education> educationList = resumedao.readEducationData();
+	 * model.addObject("educationList", educationList);
+	 * model.setViewName("showdata"); return model; }
+	 */
+	/*
+	 * @RequestMapping(value = "/showdata", method = RequestMethod.GET) public
+	 * String getAllEmployees(ModelAndView model) { List<Education> education =
+	 * resumedao.readEducationData(); model.addObject("education", education);
+	 * 
+	 * return "showdata"; }
+	 */
+
+	
+
+public int eduCreate1(Education education) {
+
+		String sql = "insert into education(board_name,clg_name,pass_year,percentage) values(?,?,?,?)";
+
+		try {
+
+			int counter = jdbcTemplate.update(sql,
+					new Object[] {
+							education.getBoard_name(),
+							education.getClg_name(), 
+							education.getPass_year(),
+							education.getPercentage() });
+
+			return counter;
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			return 0;
+		}
+	}
+	
+
+delete data
+// Query type  2
+	
+	public int delete(int edu_id) {
+		String sql = "delete from education where edu_id=?";
+
+		try {
+
+			int counter = jdbcTemplate.update(sql, new Object[] { edu_id });
+
+			return counter;
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			return 0;
+		}
+	}

@@ -1,0 +1,9 @@
+-security score 
+-first byte time
+-keep alive enable
+-effective use of CDN
+-compress image
+-compress transfer
+-cache static content
+
+

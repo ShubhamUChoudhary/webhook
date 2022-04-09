@@ -1,0 +1,47 @@
+what
+why 
+how
+what is IAM
+what is roles 
+Components of IAM
+what is Policies
+difference between roles and policies
+how to create a user
+types of policies
+what is S3 service
+what is versioning 
+website and static website hosting
+kitne buket create kar sakte
+buket limit 
+storage class of s3 service
+public and private ip
+types of instances
+difference between snapshot and volume
+elastic ip
+static ip
+suppose i am hosting 5 website how I can access 6 ips
+what is keypair
+key kaha store rahti hai
+what is load balancer
+types of load balancer
+application load balancer
+network load balancer
+what is classical load balancer
+gatways load balancer
+type of storage in ec2
+difference between ebis storage and instances
+what is images
+what is security group
+what is placement group
+what is vpc
+what is nacl
+what is target group
+what is autoscaling
+types of autoscaling
+what is lauch configuration
+
+
+
+
+
+
